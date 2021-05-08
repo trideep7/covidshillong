@@ -53,6 +53,23 @@
         borderColor: '#ff0500',
         borderWidth: 4,
         pointBackgroundColor: '#ff0500'
+      },
+	{
+        label: 'Per Day Recoveries',
+        data: [
+            192,
+            154,
+            177,
+            204,
+            147,
+            129,
+            176
+        ],
+        lineTension: 0,
+        backgroundColor: 'transparent',
+        borderColor: '#00ff05',
+        borderWidth: 4,
+        pointBackgroundColor: '#00ff05'
       }]
     },
     options: {
