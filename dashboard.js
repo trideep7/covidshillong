@@ -21,6 +21,7 @@
 	      	'7-May'
       ],
       datasets: [{
+	label: 'Per Day Case',
         data: [
           	262,
           	321,
