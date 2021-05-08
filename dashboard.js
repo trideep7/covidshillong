@@ -36,6 +36,23 @@
         borderColor: '#007bff',
         borderWidth: 4,
         pointBackgroundColor: '#007bff'
+      },
+      {
+        label: 'Per Day Death',
+        data: [
+            3,
+            5,
+            6,
+            0,
+            6,
+            2,
+            6
+        ],
+        lineTension: 0,
+        backgroundColor: 'transparent',
+        borderColor: '#ff0500',
+        borderWidth: 4,
+        pointBackgroundColor: '#ff0500'
       }]
     },
     options: {
