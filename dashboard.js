@@ -21,7 +21,7 @@
 	      	'7-May'
       ],
       datasets: [{
-	label: 'Per Day Case',
+	label: 'Per Day Cases',
         data: [
           	262,
           	321,
@@ -38,7 +38,7 @@
         pointBackgroundColor: '#007bff'
       },
       {
-        label: 'Per Day Death',
+        label: 'Per Day Deaths',
         data: [
             3,
             5,
