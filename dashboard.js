@@ -73,6 +73,13 @@
       }]
     },
     options: {
+	    legend: {
+      display: true,
+      position: 'bottom',
+      labels: {
+        fontColor: "#000080",
+      }
+      },
       scales: {
         yAxes: [{
           ticks: {
