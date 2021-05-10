@@ -12,13 +12,13 @@
     type: 'line',
     data: {
       labels: [
-        	'3-May',
         	'4-May',
         	'5-May',
         	'6-May',
 	      	'7-May',
 	      	'8-May',
-	      	'9-May'
+	      	'9-May',
+	      	'10-May'
       ],
       datasets: [{
 	label: 'Per Day Cases',
@@ -29,7 +29,8 @@
           	347,
 		297,
 		375,
-		418
+		418,
+		409
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -46,7 +47,8 @@
             2,
             6,
 	    11,
-	    18
+	    18,
+	    5
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -63,7 +65,8 @@
             129,
             176,
 	    152,
-	    179	
+	    179,
+	    241
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
