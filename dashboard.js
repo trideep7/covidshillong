@@ -23,7 +23,6 @@
       datasets: [{
 	label: 'Per Day Cases',
         data: [
-          	246,
           	339,
           	269,
           	347,
@@ -41,7 +40,6 @@
       {
         label: 'Per Day Deaths',
         data: [
-            6,
             0,
             6,
             2,
@@ -59,7 +57,6 @@
 	{
         label: 'Per Day Recoveries',
         data: [
-            177,
             204,
             147,
             129,
