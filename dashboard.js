@@ -73,6 +73,10 @@
       }]
     },
     options: {
+	    tooltips: {
+      		mode: 'index',
+      		intersect: false
+   		},
 	    	legend: {
       		display: true,
       		position: 'bottom',
