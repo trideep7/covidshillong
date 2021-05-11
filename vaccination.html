@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link href="vac.css" rel="stylesheet">
+    <title>Vaccination Center in Shillong</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">Covid-19 Resources, Shillong</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Vaccination Centers</a></li>
+            <li class="nav-item"><a class="nav-link" href="pqcenters.html">Paid Quarantine Centers</a></li>
+        </div>
+      </div>
+    </nav>
+    <div class="col-lg-8 mx-auto p-3 py-md-5 pt-5">
+      <div class="mt-4">
+      <h1 class="display-3">Vaccination Centers - Shillong</h1><div class="mt-4">
+      <strong>Vaccination is only open for 45+, for 18+ please register at <a href="https://selfregistration.cowin.gov.in/">www.selfregistration.cowin.gov.in</a></strong>  <div class="mt-4">
+      <form action="#" method="post" id="hockey">
+        <h3 class="display-6">Select your Locality Below</h3>
+  
+      <div class="dropdown-form">
+        <select name="hockeyList" onchange="showHide(this)">
+          <option>Select your Locality / Area</option>
+          <option value="barik">Barik</option>
+          <option value="bishnupur">Bishnupur</option>
+          <option value="demseiniong">Demseiniong</option>
+          <option value="laitkor">Laitkor</option>
+          <option value="dongkharmalki">Dongkharmalki</option>
+          <option value="golflink">Golflink</option>
+          <option value="goraline">Goraline</option>
+          <option value="jaiaw">Jaiaw</option>
+          <option value="jhalupara">Jhalupara</option>
+          <option value="laban">Laban</option>
+          <option value="laichumiere">Laichumiere</option>
+          <option value="laimer">Laimer</option>
+          <option value="laitumkhrah">Laitumkhrah</option>
+          <option value="lasohtun">Lasohtun</option>
+          <option value="lawmali">Lawmali</option>
+          <option value="mawprem">Mawprem</option>
+          <option value="lumparing">Lumparing</option>
+          <option value="madanriting">Madanriting</option>
+          <option value="malki">Malki</option>
+          <option value="mawdiangdiang">Mawdiangdiang</option>
+          <option value="mawiong">Mawiong</option>
+          <option value="mawlai">Mawlai</option>
+          <option value="mawlynrei">Mawlynrei</option>
+          <option value="mawpat">Mawpat</option>
+          <option value="mawroh">Mawroh</option>
+          <option value="nongmali">Nongmali</option>
+          <option value="nongmynsong">Nongmynsong</option>
+          <option value="nongrim">Nongrim Hills</option>
+          <option value="nongrimbah">Nongrimbah</option>
+          <option value="nongthymmai">Nongthymmai</option>
+          <option value="oakland">Oakland</option>
+          <option value="pohkseh">Pohkseh</option>
+          <option value="police">Police Bazar</option>
+          <option value="polo">Polo</option>
+          <option value="pynthorbah">Pynthorbah</option>
+          <option value="rilbong">Rilbong</option>
+          <option value="risa">Risa Colony</option>
+          <option value="umpling">Umpling</option>
+          <option value="umshing">Umshing Mawkynroh</option>
+          <option value="umsohsun">Umsohsun</option>
+          <option value="wahingdoh">Wahingdoh</option>
+        </select>
+      </div>
+  
+      <div class="dropdown-options">
+        <div class="show-hide" id="barik">
+          <div class="card">
+              <div class="card-header">
+                 Barik
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">HIGH WINDS VACCINATION CENTRE</li>
+            <li class="list-group-item">HOPE CLINIC SITE (PAID)</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="bishnupur">
+          <div class="card">
+              <div class="card-header">
+                 Bishnupur
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">BISHNUPUR UPHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="demseiniong">
+          <div class="card">
+              <div class="card-header">
+                 Demseiniong
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">DEMSEINIONG RAMKRISHNA MISSION</li>
+            <li class="list-group-item">DEMSEINIONG UPHC</li>
+            <li class="list-group-item">RAMKRISHNA LUMSOHRA</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="laitkor">
+          <div class="card">
+              <div class="card-header">
+                 Laitkor
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">DGAR ASSAM RIFLES</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="dongkharmalki">
+          <div class="card">
+              <div class="card-header">
+                 Dongkharmalki
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">DONGKHARMALKI UPHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="golflink">
+          <div class="card">
+              <div class="card-header">
+                 Golflink
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MPRO SHILLONG</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="goraline">
+          <div class="card">
+              <div class="card-header">
+                 Goraline
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">GURU NANAK GORALINE</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="jaiaw">
+          <div class="card">
+              <div class="card-header">
+                 Jaiaw
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">JAIAW LUMPYLLON</li>
+            <li class="list-group-item">JAIAW UPHC</li>
+            <li class="list-group-item">MAWKHAR DORBAR HALL</li>
+            <li class="list-group-item">RIATSAMTHIAH COMMUNITY HALL</li>
+            <li class="list-group-item">JAIAW SHYIAP COMMUNITY HALL</li>
+          </ul>
+          </div>
+        </div>
+        <div class="show-hide" id="jhalupara">
+          <div class="card">
+              <div class="card-header">
+                 Jhalupara
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">GOENKA JHALUPARA COMMUNITY</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="laban">
+          <div class="card">
+              <div class="card-header">
+                 Laban
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">CIVIL HOSPITAL SHILLONG RED CROSS</li>
+            <li class="list-group-item">LABAN STATE DISPENSARY</li>
+            <li class="list-group-item">LADY KERR WELFARE CENTRE</li>
+            <li class="list-group-item">UMKYNRUT LP SCHOOL LABAN KYNJAT FOOTBALL</li>
+          </ul>
+          </div>
+        </div>
+        <div class="show-hide" id="laichumiere">
+          <div class="card">
+              <div class="card-header">
+                 Laichumiere
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">DMHO EKH</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="laimer">
+          <div class="card">
+              <div class="card-header">
+                 Laimer
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">SHASTRI MEMORIAL SD</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="laitumkhrah">
+          <div class="card">
+              <div class="card-header">
+                 Laitumkhrah
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">LAITUMKHRAH PRESBYTERIAN CHURCH</li>
+            <li class="list-group-item">NAZARETH HOSPITAL (PAID)</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="lasohtun">
+          <div class="card">
+              <div class="card-header">
+                 Lasohtun
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">ST JOHN</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="lawmali">
+          <div class="card">
+              <div class="card-header">
+                 Lawmali
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">GANESH DAS HOSPITAL</li>
+            <li class="list-group-item">MIMHANS</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawprem">
+          <div class="card">
+              <div class="card-header">
+                 Mawprem
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">LAMA VILLA LOWER MAWPREM</li>
+            <li class="list-group-item">LOWER MAWPREM UPHC</li>
+            <li class="list-group-item">MAWPREM MODERN HS SCHOOL</li>
+            <li class="list-group-item">NEPALI PRESBYTERIAN SCHOOL</li>
+            <li class="list-group-item">REID PROVINCIAL CHEST HOSPITAL</li>
+          </ul>
+          </div>
+        </div>
+        <div class="show-hide" id="lumparing">
+          <div class="card">
+              <div class="card-header">
+                 Lumparing
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">DONGSKUL INDOOR SPORTS CLUB</li>
+            <li class="list-group-item">LUMPARING UPHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="madanriting">
+          <div class="card">
+              <div class="card-header">
+                 Madanriting
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MADANRTING COMMUNITY HALL</li>
+            <li class="list-group-item">MADANRYTING UPHC</li>
+            <li class="list-group-item">LUMBATNGEN/LAW-U-SIB COMMUNITY</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="malki">
+          <div class="card">
+              <div class="card-header">
+                 Malki
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MALKI NONGSHILLIANG COMMUNITY</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawdiangdiang">
+          <div class="card">
+              <div class="card-header">
+                 Mawdiangdiang
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">NEIAH SHILLONG</li>
+            <li class="list-group-item">NEIGRIHMS</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawiong">
+          <div class="card">
+              <div class="card-header">
+                 Mawiong
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWIONG CHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawlai">
+          <div class="card">
+              <div class="card-header">
+                 Mawlai
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWLAI NONGKWAR UPHC</li>
+            <li class="list-group-item">MAWLAI PHUDMURI</li>
+            <li class="list-group-item">MAWLAI SYLLAI KARIAH</li>
+            <li class="list-group-item">MAWLAI UMJAIUR CH</li>
+            <li class="list-group-item">MAWLAI UMTHLONG</li>
+            <li class="list-group-item">NEHRU MEMORIAL SD</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawlynrei">
+          <div class="card">
+              <div class="card-header">
+                 Mawlynrei
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWLYNREI SUB CENTER</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawpat">
+          <div class="card">
+              <div class="card-header">
+                 Mawpat
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWPAT UPHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="mawroh">
+          <div class="card">
+              <div class="card-header">
+                 Mawroh
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWROH PHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="nongmali">
+          <div class="card">
+              <div class="card-header">
+                 Nongmali
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">GANESH DAS</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="nongmynsong">
+          <div class="card">
+              <div class="card-header">
+                 Nongmynsong
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">BHANU BHAKTA SCHOOL</li>
+            <li class="list-group-item">NONGMYNSONG SUB CENTRE</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="nongrim">
+          <div class="card">
+              <div class="card-header">
+                 Nongrim Hills
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">BETHANY HOSPITAL (PAID)</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="nongrimbah">
+          <div class="card">
+              <div class="card-header">
+                 Nongrimbah
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">NONGRIMBAH COMMUNITY HALL</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="nongthymmai">
+          <div class="card">
+              <div class="card-header">
+                 Nongthymmai
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">INDOOR STADIUM NONGTHYMMAI</li>
+            <li class="list-group-item">LUMSOHPHOH COMMUNITY HALL</li>
+            <li class="list-group-item">NEPALI SCHOOL</li>
+            <li class="list-group-item">NONGSHILIANG NONGTHYMMAI</li>
+            <li class="list-group-item">NONGTHYMMAI UPHC</li>
+          </ul>
+          </div>
+        </div>
+        <div class="show-hide" id="oakland">
+          <div class="card">
+              <div class="card-header">
+                 Oakland
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">OAKLAND GANESH DAS</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="pohkseh">
+          <div class="card">
+              <div class="card-header">
+                 Pohkseh
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">POHKSEH VACCINATION CENTRE</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="police">
+          <div class="card">
+              <div class="card-header">
+                 Police Bazar
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">POLICE BAZAR MUDA</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="polo">
+          <div class="card">
+              <div class="card-header">
+                 Polo
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">JN COMPLEX CAFETERIA</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="pynthorbah">
+          <div class="card">
+              <div class="card-header">
+                 Pynthorbah
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">PYNTHORBAH UHC</li>
+            <li class="list-group-item">VALLEY VIEW SCHOOL</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="rilbong">
+          <div class="card">
+              <div class="card-header">
+                 Rilbong
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MILITARY HOSPITAL SHILLONG</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="risa">
+          <div class="card">
+              <div class="card-header">
+                 Risa Colony
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">RISA COLONY FOREST QUARTER</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="rynjah">
+          <div class="card">
+              <div class="card-header">
+                 Rynjah
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">RYNJAH STATE DISPENSARY</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="umpling">
+          <div class="card">
+              <div class="card-header">
+                 Umpling
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">CH BSF SHILLONG</li>
+            <li class="list-group-item">UMPLING PRESBETARIAN CHURCH</li>
+            <li class="list-group-item">UMPLING PRESS SCHOOL</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="umrynjah">
+          <div class="card">
+              <div class="card-header">
+                 Umrynjah
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">UMRYNJAH SUB CENTRE</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="umshing">
+          <div class="card">
+              <div class="card-header">
+                 Umshing Mawkynroh
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">NEHU SHILLONG</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="umsohsun">
+          <div class="card">
+              <div class="card-header">
+                 Umsohsun
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">MAWKHAR DORBAR HALL 1</li>
+            <li class="list-group-item">UMSOHSUN COMMUNITY HALL</li>
+            <li class="list-group-item">UMSOHSUN UPHC</li>
+          </ul>
+        </div>
+        </div>
+        <div class="show-hide" id="wahingdoh">
+          <div class="card">
+              <div class="card-header">
+                 Wahingdoh
+              </div>
+          <ul class="list-group">
+            <li class="list-group-item">WAHINGDOH COMMUNITY HALL</li>
+          </ul>
+        </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+      </div>
+      </form>
+    </div>
+    <footer class="pt-5 my-5 text-muted border-top">
+        Email trideep7@gmail.com to modify any information | Data from http://meghealth.gov.in/
+    </footer>
+    <script src="vac.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+  </body>
+</html>

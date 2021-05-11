@@ -1,0 +1,21 @@
+#barik, #bishnupur, #demseiniong, #laitkor, #dongkharmalki, #golflink, #goraline, #jaiaw, #jhalupara, #laban, #laichumiere, #laimer, #laitumkhrah, #lasohtun, #lawmali, #mawprem, #lumparing, #lumparing, #madanriting, #malki, #mawdiangdiang, #mawiong, #mawlai, #mawlynrei, #mawpat, #mawroh, #nongmali, #nongmynsong, #nongrim, #nongrimbah, #nongthymmai, #oakland, #pohkseh, #police, #polo, #pynthorbah, #pynthorbah, #rilbong, #risa, #rynjah, #umpling, #umrynjah, #umshing, #umsohsun, #wahingdoh {
+  display: none;
+}
+
+.dropdown-form, .dropdown-options {
+  /*width: 500px;*/
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #e2e2e2;
+  box-shadow: 0 0 15px #0001;
+}
+
+select {
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.dropdown-options {
+  font-family: Arial;
+}
