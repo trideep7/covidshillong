@@ -12,24 +12,24 @@
     type: 'line',
     data: {
       labels: [
-	      '8-May',
 	      '9-May',
 	      '10-May',
 	      '11-May',
               '12-May',
 	      '13-May',
-	      '14-May'
+	      '14-May',
+	      '15-May'
       ],
       datasets: [{
 	label: 'Per Day Cases',
         data: [
-		375,
 		418,
 		409,
 		450,
                 406,
 		591,
-		627
+		627,
+		560
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -40,13 +40,13 @@
       {
         label: 'Per Day Deaths',
         data: [
-	    	11,
 	    	18,
 	    	5,
 	    	9,
             	8,
 		18,
-		12
+		12,
+		21
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -57,13 +57,13 @@
 	{
         label: 'Per Day Recoveries',
         data: [
-	    	152,
 	    	179,
 	    	241,
 	    	206,
             	314,
 		228,
-		327
+		327,
+		215
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
