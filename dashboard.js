@@ -30,7 +30,7 @@
 		627,
 		560,
 		569
-        ],
+        ], 
         lineTension: 0,
         backgroundColor: 'transparent',
         borderColor: '#007bff',
