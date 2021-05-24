@@ -18,7 +18,10 @@
 	      '17-May',
 	      '18-May',
 	      '19-May',
-	      '20-May'
+	      '20-May',
+	      '21-May',
+	      '22-May',
+	      '23-May'
       ],
       datasets: [{
 	label: 'Per Day Cases',
@@ -29,7 +32,10 @@
 		634,
 		906,
 		872,
-		1183
+		1183,
+		828,
+		1123,
+		803
         ], 
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -46,7 +52,10 @@
 		16,
 		19,
 		24,
-		10
+		10,
+		25,
+		21,
+		22
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
@@ -63,7 +72,10 @@
 		237,
 		470,
 		411,
-		465
+		465,
+		419,
+		509,
+		553
         ],
         lineTension: 0,
         backgroundColor: 'transparent',
